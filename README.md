@@ -1,18 +1,18 @@
 # Cata Sarafoleanu
 
-I build AI agents and threat model them.
+I threat model AI agents. I also build them, which is how I know where they break.
 
-I have spent 20+ years in security engineering across routing, telco, cloud, Kubernetes, and security architecture. The current layer is AI agents: harnesses with real permissions, real tokens, and real blast radius.
+My first internet was two Unix boxes exchanging email over a phone line with UUCP, before browsers existed. Since then I have caught infrastructure waves early: routing to CCIE #21712, telco through 5G, then cloud before cloud security had a name. The pattern is consistent: technology reaches production before security catches up.
 
-This is not a pivot story. It is the same systems and security work applied to the next operational layer.
+Today that wave is AI agents. I run autonomous systems with real permissions and document what breaks: trust boundaries, token custody, harness design, MCP servers, memory, and blast radius. When your agent calls a third-party tool server, your trust boundary extends to someone else's infrastructure.
 
 ## What I work on
 
-- Agent harness security
-- Trust boundaries and token custody
-- Monitoring agent workloads in EKS
-- Cloud and Kubernetes detection engineering
-- Security architecture for autonomous systems
+- Agent harness security and MCP server trust boundaries
+- Token custody and permission models for autonomous systems
+- Detection engineering: deterministic detections, automated enrichment, AI as the reasoning layer
+- Cloud and Kubernetes security architecture
+- Monitoring agent workloads in production
 
 ## Featured work
 
@@ -23,18 +23,19 @@ This is not a pivot story. It is the same systems and security work applied to t
 
 ## Current focus
 
-I am interested in the questions most teams skip on the first pass:
+The questions most teams skip on the first pass:
 
 - What permissions does this agent actually have?
 - Where do the tokens live?
 - What is the blast radius when the wrong content steers it?
+- When your agent calls a third-party MCP server, whose infrastructure are you trusting?
 - How do you monitor and audit what an autonomous workload actually did?
 
 ## Credentials
 
-CCIE #21712  
-CISSP  
-CISM  
+CCIE #21712
+CISSP
+CISM
 AWS Solutions Architect
 
 ## Writing
