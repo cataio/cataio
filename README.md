@@ -6,6 +6,10 @@ My first internet was two Unix boxes exchanging email over a phone line with UUC
 
 Today that wave is AI agents. I run autonomous systems with real permissions and document what breaks: trust boundaries, token custody, harness design, MCP servers, memory, and blast radius. When your agent calls a third-party tool server, your trust boundary extends to someone else's infrastructure.
 
+I have led security architecture, SOC, and incident response programs at enterprise scale across cloud and multi-cloud environments. The principle I keep applying: keep detections deterministic, use automation for enrichment and orchestration, and use AI where reasoning over context actually helps analysts move faster.
+
+I work at the point where production AI systems meet real security architecture.
+
 ## What I work on
 
 - Agent harness security and MCP server trust boundaries
